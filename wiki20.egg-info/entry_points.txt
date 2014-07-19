@@ -1,0 +1,4 @@
+[console_scripts]
+bootstrap-wiki20 = wiki20.command:bootstrap
+start-wiki20 = wiki20.command:start
+
