@@ -28,3 +28,8 @@ class Root(controllers.RootController):
         # log.debug("Happy TurboGears Controller Responding For Duty")
         flash(_(u"Your application is now running"))
         return dict(now=datetime.datetime.now())
+
+    @expose()
+    def test(self):
+        print '---->>>>>>testing--------'
+        return 'HAHA'
