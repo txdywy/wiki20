@@ -1,6 +1,0 @@
-include start-wiki20.py
-include *.cfg
-include wiki20/config/*.cfg
-recursive-include wiki20/templates *.html
-recursive-include wiki20/templates *.kid
-recursive-include wiki20/static *
