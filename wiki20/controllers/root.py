@@ -107,3 +107,9 @@ class RootController(BaseController):
         """
         flash(_('We hope to see you soon!'))
         return HTTPFound(location=came_from)
+    
+    @expose()
+    def test(self):
+        print '---------------------->>>>----------------------'
+        return 'HAHAHA'
+
